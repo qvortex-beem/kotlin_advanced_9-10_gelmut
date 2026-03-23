@@ -1,3 +1,6 @@
+package modules
+
+import resources.ResourceMenager
 class ResearchLab : OutpostModule(
     "Исследовательская лаборатория"
 ){

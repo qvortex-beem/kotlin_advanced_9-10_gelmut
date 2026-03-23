@@ -1,3 +1,8 @@
+import modules.EnergyGenerator
+import modules.ResearchLab
+import resources.OutpostResource
+import resources.ResourceMenager
+
 fun main() {
     val manager = ResourceMenager()
     manager.add(OutpostResource(1, "Minerals", 120))

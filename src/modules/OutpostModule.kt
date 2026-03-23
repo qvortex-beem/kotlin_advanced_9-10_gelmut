@@ -1,3 +1,6 @@
+package modules
+
+import resources.ResourceMenager
 abstract class OutpostModule(
     val name: String,
     var level: Int = 1

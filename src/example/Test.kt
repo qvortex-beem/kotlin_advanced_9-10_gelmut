@@ -1,3 +1,5 @@
+package example
+
 var age: Int = 18
     set (value) {
         if ((value > 0) and (value < 110))
@@ -25,23 +27,23 @@ class Person(name: String, override var age: Int): Human(name) {
 }
 
 fun main() {
-//    println(age)
-//    age = 45
-//    println(age)
-//    age = -345
-//    println(age)
+//    println(example.age)
+//    example.age = 45
+//    println(example.age)
+//    example.age = -345
+//    println(example.age)
 
-//val sword = Item(1, "sword", 1)
+//val sword = example.Item(1, "sword", 1)
 //val betterSword = sword.copy(quantity = 2)
 //    println(sword.toString())
 //    println(betterSword.toString())
 
 //    val(id, name, quantity) = betterSword
 //    println("Id предмета: $id\nИмя: $name\nКоличество: $quantity\n")
-//    val denis: Human
-//    val pavel: Human = Human("Pavel")
-//    val denis: Person = Person("Denis")
-//    val maksim: Human = Person("Maksim")
+//    val denis: example.Human
+//    val pavel: example.Human = example.Human("Pavel")
+//    val denis: example.Person = example.Person("Denis")
+//    val maksim: example.Human = example.Person("Maksim")
 //    denis.hello()
 //    maksim.hello()
 }

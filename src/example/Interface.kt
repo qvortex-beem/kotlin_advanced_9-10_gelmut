@@ -1,3 +1,5 @@
+package example
+
 interface Movable{
     var speed: Int
     val model: String
@@ -43,10 +45,10 @@ class MediaPlayer : VideoPlayable, AudioPlayable {
 }
 
 fun main() {
-//    val car = Car("LADA", "134LAD")
-//    val aircraft = Aircraft("Boeing", "737")
-//    travel(car)
-//    travel(aircraft)
+//    val car = example.Car("LADA", "134LAD")
+//    val aircraft = example.Aircraft("Boeing", "737")
+//    example.travel(car)
+//    example.travel(aircraft)
 //    aircraft.move()
 //    aircraft.stop()
 
