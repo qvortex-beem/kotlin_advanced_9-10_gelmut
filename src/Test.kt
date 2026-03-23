@@ -40,8 +40,8 @@ fun main() {
 //    println("Id предмета: $id\nИмя: $name\nКоличество: $quantity\n")
 //    val denis: Human
 //    val pavel: Human = Human("Pavel")
-    val denis: Person = Person("Denis")
-    val maksim: Human = Person("Maksim")
-    denis.hello()
-    maksim.hello()
+//    val denis: Person = Person("Denis")
+//    val maksim: Human = Person("Maksim")
+//    denis.hello()
+//    maksim.hello()
 }
